@@ -1,5 +1,4 @@
-import numpy as np
-from PyQt6.QtGui import QQuaternion, QVector3D, QMatrix4x4
+from PyQt6.QtGui import  QVector3D, QMatrix4x4
 import math
 
 class Camera:

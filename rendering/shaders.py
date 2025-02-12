@@ -1,5 +1,4 @@
 from OpenGL.GL import *
-import numpy as np
 
 class ShaderProgram:
     def __init__(self):
@@ -52,6 +51,11 @@ class ShaderProgram:
         """Set a uniform vec3 value"""
         location = glGetUniformLocation(self.program_id, name)
         glUniform3f(location, x, y, z)
+
+    def set_uniform_4f(self, name, x, y, z, w):
+        """Set a uniform vec4 value"""
+        location = glGetUniformLocation(self.program_id, name)
+        glUniform4f(location, x, y, z, w)
 
     def set_uniform_1i(self, name, value):
         """Set a uniform integer value"""
