@@ -2,7 +2,6 @@ from PyQt6.QtGui import QVector3D
 import numpy as np
 from OpenGL.arrays import vbo
 from OpenGL.GL import *
-from scipy.ndimage import binary_fill_holes
 
 class DamBuilder:
     def __init__(self):
