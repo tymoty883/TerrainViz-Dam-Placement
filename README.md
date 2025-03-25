@@ -4,8 +4,9 @@
 - Load `.tif` and `.asc` terrain files for visualization.
 - Simplify terrain models for improved performance on large datasets.
 - Interactive 3D navigation with an arcball camera.
-- Customizable rendering options, including terrain and background schemes.
+- Customizable terrain and background schemes.
 - OpenGL-powered visualization for high-quality rendering.
+- Geometric dam placement design and simulation of enclosed area flooding.
 
 ---
 
